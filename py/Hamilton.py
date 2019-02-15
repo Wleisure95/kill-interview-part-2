@@ -18,3 +18,5 @@ for i in range(1,1<<5):
                     print(i,j)
                     f[i][j] = min(f[i][j],f[i-(1<<j)][k]+w[k][j])
                     print(f[i][j])
+
+wsnd
